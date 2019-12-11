@@ -4045,11 +4045,3 @@ exports.sayHi = (req, res) => {
       })
 }
 
-// const axios = require('axios');
-
-//  const getProducts = async() => {
-//    let res = await axios.get('http://jsoneditoronline.org/?id=0ccb593c878e42e89f0e2cd8eb31e42a')
-// }
-
-// module.exports = {
-//     getProducts};

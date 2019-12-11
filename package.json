@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
-    "build": "node index.js "
+    "now-build": "API_URL=https://node-lamba.andreshm94.now.sh npm run generate"
   },
   "keywords": [],
   "author": "",

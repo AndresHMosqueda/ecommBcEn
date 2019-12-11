@@ -1,9 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-// ***  ENV VARIABLES
-const dotenv = require('dotenv');
-dotenv.config();
+require('dotenv').config();
 
 const origin = process.env.NODE_ENV !== 'production' ? 'http://localhost:8000/api' : 'prod-url'
 

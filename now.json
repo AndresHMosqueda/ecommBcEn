@@ -1,5 +1,5 @@
 {
-    "name": "node-lamba",
+    "name": "nodejs",
     "version": 2,
     "builds": [
         { "src": "*.js", "use": "@now/node" }
